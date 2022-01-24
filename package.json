@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node -P tsconfig.json src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -P tsconfig.json"
   },
   "keywords": [],
   "author": "",

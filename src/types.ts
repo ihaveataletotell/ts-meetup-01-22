@@ -27,14 +27,14 @@ interface BaseOrgData {
   dateOfFoundation?: string;
 }
 
-interface FrontendParticipantFormat {
-  email: string;
-  name?: string;
-  date?: string;
-}
-
 interface IAdder<T> {
   data: Set<T>;
   add(toAdd: T): IAdder<T>;
   remove(toRemove: T): IAdder<T>;
+}
+
+interface FrontendParticipantFormat {
+  email: string;
+  name?: string;
+  date?: string;
 }
